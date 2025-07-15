@@ -1,3 +1,10 @@
+Django Backend Run Application Docker:-
+
+sudo docker build -t autodeploy-django-backend:latest .
+sudo docker run -d --name autodeploy-django -p 8000:8000 autodeploy-django-backend:latest
+
+
+
 sudo docker build -t memorial:latest .
 sudo docker run -d --name memorial-frontend -p 3000:3000  memorial:latest 
 sudo docker start (container-id)
