@@ -10,7 +10,7 @@ WORKDIR /app
 
 ADD . /app
 #RUN addgroup -S adifect-app && adduser -S adifect-app -G adifect-app
-RUN pip install --no-cache-dir -r requirements.txt && \
+RUN pip install --no-cache-dir -r requirement.txt && \
         pip install gunicorn
         
 
